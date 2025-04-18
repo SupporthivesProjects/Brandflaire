@@ -15,10 +15,12 @@ let toogleBtn = document.querySelector('.navbar-toggler');
 toogleBtn.addEventListener('click',()=>{
     if(countimg == 0){
       document.getElementById('changetoggle').src ="./assest/images/Menu-Button-cross.svg";
-      countimg = 1
+      //document.querySelector('header').style.background="#1C1F26"
+      countimg = 1;
     }
     else{
         document.getElementById('changetoggle').src ="./assest/images/Menu-Button.svg";
+       // document.querySelector('header').style.background="transparent"
         countimg = 0;
     }
 })
