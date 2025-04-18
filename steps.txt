@@ -4,4 +4,8 @@
    create your branch
    push on your branch and raise PR 
    After you raise PR I merge in main , and add team members 
-   
+
+vijay -> header,footer,cart modal ,term,privacy,error all modal
+rahul -> seo,orm,contact,faqs,all dashboard all modal
+dhiraj-> ppc, ux/ui, email marketing,about,checkout, payment successfull/unsuccessful,allmodal
+saakshi->orm,email template,login,sign up ,resetpage, all modal
