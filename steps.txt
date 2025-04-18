@@ -1,0 +1,7 @@
+1. Vijay 
+   create assets folder --> css, js, images
+   creat index.html
+   create your branch
+   push on your branch and raise PR 
+   After you raise PR I merge in main , and add team members 
+   
