@@ -1,0 +1,185 @@
+@media only screen and (min-width: 700px) and (max-width:890px) {
+}
+@media screen and (max-width: 600px) {
+    .navbar-nav {
+        align-items: baseline;
+        gap: 17px;
+        padding: 24px 12px;
+    }
+    .nav-link {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0;
+        vertical-align: middle;
+        text-transform: capitalize;
+        color: #fff;
+        padding: 0px 0px;
+    }    
+    .navbar-nav-mo{
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navbar-nav-mo .btn{
+        display: block !important;
+        justify-content: center;
+        align-items: anchor-center;
+        padding: 14px 0px !important;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 100px;
+        border: 1px solid rgba(255, 255, 255, 0.56);
+        background: var(--Bright-Red, #FB1616);
+        box-shadow: 0px 1px 2px 0px rgba(13, 32, 62, 0.50), 0px 0px 0px 2px #671313;
+        width: 116px;
+    }
+    .navbar {
+        padding: 26px 10px;
+    }
+    .dropdown-item{
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px 0px 10px 14px;
+    }
+    .navbar-nav .dropdown-menu {
+        position: static;
+        background: transparent;
+    }
+    .dropdown-menu li a {
+        color: var(--Grayscale-700, #656565);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px;
+        color: var(--Grayscale-300, #E7E7E7);
+    }
+    .select-item{
+        color: #FB1616 !important;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: underline;
+        background: transparent !important;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .error-section {
+        height: 482px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
+    .error-content h1 {
+        color: var(--Grayscale-White, #FFF);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .footerullid ul {
+        display: flex;
+        gap: 28px;
+        list-style: none;
+        padding: 0px;
+        width: 100%;
+        float: none;
+        justify-content: space-between;
+        padding: 0px 25px;
+    }
+    .col-red-div p{
+        color: var(--Bright-Red, #FB1616);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .bd-footer h5 {
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 9px;
+        text-align: center;
+    }
+    .list-unstyled h5 {
+        color: var(--Grayscale-White, #FFF);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 0px;
+    }
+    .list-unstyled-p p {
+        color: var(--Grayscale-500, #D0D0D0);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .list-unstyled-main li {
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .col-mo{
+        text-align: center;
+        margin-bottom: 24px !important;
+    }    
+    .list-unstyled {
+        display: flex;
+        gap: 21px;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-unstyled-main {
+        list-style: none;
+        padding: 0px;
+        column-count: 2;
+        margin-bottom: 24px !important;
+    }
+    .list-unstyled-p {
+        padding: 0px;
+        margin-bottom: 24px;
+    }
+    .text-body-secondary {
+        margin: 0px 0px 0px;
+    }
+    footer {
+        background: #1C1F26;
+        padding: 40px 0px 40px;
+        position: relative;
+    }
+}
