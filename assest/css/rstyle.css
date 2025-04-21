@@ -198,6 +198,90 @@
     line-height: normal;
     text-transform: capitalize;
 }
+.order_main{
+    display: flex;
+    padding: 56px;
+    max-width: 808px;
+    margin: auto;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--Outline, #DEE5ED);
+    background: var(--Grayscale-White, #FFF);
+}
+.order_titlebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.order_subtitle{
+    max-width: 548px;
+}
+.history_table thead tr th{
+    padding: 0px 0px 16px 0px;
+    border-bottom: 1px solid rgba(195, 0, 0, .5);
+    
+}
+.history_table tbody tr td{
+    padding: 16px 0px;
+    border-bottom: 1px solid rgba(195, 0, 0, .5);   
+}
+.history_tabletitle{
+    margin: 0px;
+    color: var(--Navy, #1C1F26);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hisroty_orderid{
+    color: var(--Functional-Info-Blue, #397BFC);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.history_bodytext{
+    color: var(--Navy, #1C1F26);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.order_detailbtn{
+    display: flex;
+    padding: 14px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 10px;
+    border-radius: 100px;
+    background: var(--Navy, #1C1F26);
+    box-shadow: 0px 1px 2px 0px rgba(119, 119, 119, 0.50), 0px 0px 0px 2px #181719;
+    color: var(--Grayscale-White, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.history_table tbody tr td:last-child{
+    display: flex;
+    justify-content: end;
+    padding: 16px 4px;
+}
 /* Dashboard End */
 
 
@@ -220,6 +304,62 @@
     }
     .tab_btnbar{
         gap: 20px;
+    }
+    .dashboard_sec2{
+        padding: 0px;
+    }
+    .account_main{
+        padding: 48px 24px;
+        gap: 24px;
+    }
+    .account_titlebar{
+        align-items: center;
+    }
+    .account_title{
+        font-size: 32px;
+    }
+    .account_subtitlebar{
+        gap: 16px;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .dashboard_mid{
+        text-align: center;
+    }
+    .acc_infotitle{
+        font-size: 24px;
+    }
+    .dashboard_textboxline{
+        flex-direction: column;
+    }
+    .order_main{
+        border-radius: 0px;
+        padding: 48px 0px 0px 0px;
+        gap: 32px;
+    }
+    .order_titlebar{
+        padding: 0px 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .history_table{
+        padding: 0px 24px;
+        width: 744px;
+    }
+    .main_tablediv{
+        padding: 0px 24px 24px 24px;
+    }
+    .order_swipetext{
+        color: var(--Bright-Red, #FB1616);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 0px;
     }
     /* Dashboard End */
 }

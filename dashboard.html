@@ -201,8 +201,15 @@
                     </div>
                     <div class="tab-pane fade history_main" id="pills-history" role="tabpanel"
                         aria-labelledby="pills-history-tab">
-                        <div class="account_contentmain mobile_none">
-                            <div class="table-responsive">
+                        <div class="order_tabcontent order_main">
+                            <div class="order_titlebar">
+                                <h2 class="account_title">My Orders</h2>
+                                <p class="account_subtitle order_subtitle">From your account dashboard you can vier your recent
+                                    orders, manage your billing addressed and edit your password and account
+                                    details.</p>
+                                    <p class="order_swipetext desktop_none">Swipe left and right to view the table.</p>
+                            </div>
+                            <div class="table-responsive main_tablediv">
                                 <table class="table table-borderless mb-0 history_table">
                                     <thead class="history_table_header">
                                         <tr class="align-middle">
@@ -219,119 +226,61 @@
                                                 <p class="history_tabletitle">Total</p>
                                             </th>
                                             <th scope="col">
-                                                <p class="history_tabletitle">Status</p>
+                                                <p class="history_tabletitle"></p>
                                             </th>
                                         </tr>
                                     </thead>
                                     <tbody class="history_table_body">
                                         <tr class="align-middle">
                                             <td>
-                                                <p class="history_bodytext">12345</p>
+                                                <p class="hisroty_orderid">#123</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">01.12.2023</p>
+                                                <p class="history_bodytext">June 14, 2021</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">4 pages</p>
+                                                <p class="history_bodytext">X1</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">£199.75</p>
+                                                <p class="history_bodytext">£800</p>
                                             </td>
-                                            <td><button class="status_btn">In Progress</button>
+                                            <td><button class="order_detailbtn">View Details</button>
                                             </td>
                                         </tr>
                                         <tr class="align-middle">
                                             <td>
-                                                <p class="history_bodytext">12345</p>
+                                                <p class="hisroty_orderid">#123</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">01.12.2023</p>
+                                                <p class="history_bodytext">June 14, 2021</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">4 pages</p>
+                                                <p class="history_bodytext">X1</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">£199.75</p>
+                                                <p class="history_bodytext">£800</p>
                                             </td>
-                                            <td><button class="status_btn">Completed</button>
+                                            <td><button class="order_detailbtn">View Details</button>
                                             </td>
                                         </tr>
                                         <tr class="align-middle">
                                             <td>
-                                                <p class="history_bodytext">12345</p>
+                                                <p class="hisroty_orderid">#123</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">01.12.2023</p>
+                                                <p class="history_bodytext">June 14, 2021</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">4 pages</p>
+                                                <p class="history_bodytext">X1</p>
                                             </td>
                                             <td>
-                                                <p class="history_bodytext">£199.75</p>
+                                                <p class="history_bodytext">£800</p>
                                             </td>
-                                            <td><button class="status_btn">Deleted</button>
+                                            <td><button class="order_detailbtn">View Details</button>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div>
-                        </div>
-                        <div class="account_contentmain desktop_none">
-                            <div class="dashboard_mobhistorybar">
-                                <div class="mob_historydiv">
-                                    <div class="history_titlebar w-100">
-                                        <p class="histroy_mobtitle">Order #</p>
-                                        <p class="histroy_mobtitle">Date</p>
-                                        <p class="histroy_mobtitle">QTY</p>
-                                        <p class="histroy_mobtitle">Total</p>
-                                        <p class="histroy_mobtitle">Status</p>
-                                    </div>
-                                    <div class="history_contentbar w-100">
-                                        <p class="history_mobsubtitle">123456</p>
-                                        <p class="history_mobsubtitle">01.12.2023</p>
-                                        <p class="history_mobsubtitle">4 Pages</p>
-                                        <p class="history_mobsubtitle">£199.75</p>
-                                        <div class="status_div">
-                                            <button type="button" class="btn status_btn">In Progress</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mob_historydiv">
-                                    <div class="history_titlebar w-100">
-                                        <p class="histroy_mobtitle">Order #</p>
-                                        <p class="histroy_mobtitle">Date</p>
-                                        <p class="histroy_mobtitle">QTY</p>
-                                        <p class="histroy_mobtitle">Total</p>
-                                        <p class="histroy_mobtitle">Status</p>
-                                    </div>
-                                    <div class="history_contentbar w-100">
-                                        <p class="history_mobsubtitle">123456</p>
-                                        <p class="history_mobsubtitle">01.12.2023</p>
-                                        <p class="history_mobsubtitle">4 Pages</p>
-                                        <p class="history_mobsubtitle">£199.75</p>
-                                        <div class="status_div">
-                                            <button type="button" class="btn status_btn">Completed</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mob_historydiv">
-                                    <div class="history_titlebar w-100">
-                                        <p class="histroy_mobtitle">Order #</p>
-                                        <p class="histroy_mobtitle">Date</p>
-                                        <p class="histroy_mobtitle">QTY</p>
-                                        <p class="histroy_mobtitle">Total</p>
-                                        <p class="histroy_mobtitle">Status</p>
-                                    </div>
-                                    <div class="history_contentbar w-100">
-                                        <p class="history_mobsubtitle">123456</p>
-                                        <p class="history_mobsubtitle">01.12.2023</p>
-                                        <p class="history_mobsubtitle">4 Pages</p>
-                                        <p class="history_mobsubtitle">£199.75</p>
-                                        <div class="status_div">
-                                            <button type="button" class="btn status_btn">Deleted</button>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
