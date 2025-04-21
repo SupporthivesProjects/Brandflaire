@@ -1,5 +1,394 @@
 @media only screen and (min-width: 700px) and (max-width:890px) {
 }
+@media only screen and (min-width: 900px) and (max-width:998px) {
+    .navbar-nav {
+        align-items: center;
+        gap: 7px;
+    }
+    .desgined-left-img video{
+        position: absolute;
+        width: 73px;
+        right: 25px;
+        bottom: 22px;
+    }
+    .home-content-s2 h2 {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 38px;
+        margin-bottom: 19px;
+    }
+    .home-content-s2 p {
+        color: var(--Grayscale-700, #656565);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 18px;
+    }
+    .card .col-details {
+        padding: 47px 22px;
+    }
+    .col-details h3 {
+        color: var(--Navy, #1C1F26);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 22px;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 604px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 20px;
+        margin-right: 17px;
+    }
+    .last-content-left h2 {
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+    }
+    .last-content-left p {
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+    }
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-section-home {
+        padding: 0px 0px;
+        background: #F3F3F3;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width:1090px) {
+    .navbar-nav {
+        align-items: center;
+        gap: 7px;
+    }
+    .desgined-left-img video{
+        position: absolute;
+        width: 73px;
+        right: 25px;
+        bottom: 22px;
+    }
+    .home-content-s2 h2 {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 38px;
+        margin-bottom: 19px;
+    }
+    .home-content-s2 p {
+        color: var(--Grayscale-700, #656565);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 18px;
+    }
+    .card .col-details {
+        padding: 47px 22px;
+    }
+    .col-details h3 {
+        color: var(--Navy, #1C1F26);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 22px;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 680px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 60px;
+        margin-right: 53px;
+    }
+    .last-content-left h2 {
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+    }
+    .last-content-left p {
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+    }
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-section-home {
+        padding: 0px 0px;
+        background: #F3F3F3;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width:1190px) {
+    .navbar-nav {
+        align-items: center;
+        gap: 7px;
+    }
+    .card .col-details {
+        padding: 47px 22px;
+    }
+    .desgined-left-img video{
+        position: absolute;
+        width: 73px;
+        right: 25px;
+        bottom: 22px;
+    }
+    .home-content-s2 h2 {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 38px;
+        margin-bottom: 19px;
+    }
+    .home-content-s2 p {
+        color: var(--Grayscale-700, #656565);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 18px;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 680px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 81px;
+        margin-right: 53px;
+    }
+    .last-content-left h2 {
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+    }
+    .last-content-left p {
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+    }
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-section-home {
+        padding: 14px 0px;
+        background: #F3F3F3;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width:1290px) {
+    .desgined-left-img video{
+        position: absolute;
+        width: 82px;
+        right: 31px;
+        bottom: 26px;
+    }
+    .last-section-home {
+        padding: 24px 0px;
+        background: #F3F3F3;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width:1390px) {
+    .desgined-left-img video {
+        position: absolute;
+        width: 73px;
+        right: 49px;
+        bottom: 28px;
+    }
+    .last-section-home {
+        padding: 32px 0px;
+        background: #F3F3F3;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width:1290px){
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 718px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 81px;
+        margin-right: 53px;
+    }
+    .last-content-left h2 {
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+    }
+    .last-content-left p {
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width:1390px){
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 718px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 81px;
+        margin-right: 53px;
+    }
+    .last-content-left h2 {
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+    }
+    .last-content-left p {
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width:1490px){
+    .last-section-home {
+        padding: 44px 0px;
+        background: #F3F3F3;
+    }
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 898px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 81px;
+        margin-right: 53px;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width:1590px){
+    .last-cl-bg {
+        background: url(../images/Ready-to-letushelp.png) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 292px;
+        width: 1409px;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 898px;
+        max-width: 100%;
+        float: right;
+        align-items: center;
+        gap: 81px;
+        margin-right: 53px;
+    }
+}
 @media screen and (max-width: 600px) {
     .navbar-nav {
         align-items: baseline;
@@ -73,6 +462,326 @@
         text-decoration: underline;
         background: transparent !important;
     }
+    .p-mo-0{
+        padding: 0px;
+    }
+    .cart-body {
+        position: absolute;
+        background: var(--off-white, #F3F3F3);
+        box-shadow: 0px 29px 40px 0px rgba(0, 0, 0, 0.18), 0px 11.17px 12.741px 0px rgba(0, 0, 0, 0.11), 0px 2.363px 3.259px 0px rgba(0, 0, 0, 0.07);
+        padding: 8px 24px;
+        height: 300px;
+        overflow-y: scroll;
+        width: 381px;
+        left: -36px;
+        top: 31px;
+        display: none;
+        z-index: 1;
+    }
+    .cart-btn .btn-black-border {
+        border-radius: 90px;
+        border: 2px solid var(--Navy, #1C1F26);
+        color: var(--Navy, #1C1F26);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        background: #F3F3F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 173px;
+        max-width: 100%;
+    }
+    .cart-item-details {
+        padding: 10px 4px;
+        border-bottom: 1px solid #c300005e;
+    }
+    .cart-item-ine h5 p {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0px;
+    }
+    .cart-item-ine h5 {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px;
+        display: flex
+    ;
+    }
+}
+@media screen and (max-width: 600px) {
+    .home-content-s2 h2 {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .home-content-s2 p {
+        color: var(--Grayscale-700, #656565);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .home-content-s2 .btn {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .home-content-s2{
+        margin-top: 16px;
+        padding: 0px 14px;
+    }
+    .home-section2{
+        padding: 40px 0px;
+    }
+    .home-banner-home {
+        height: fit-content;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background: var(--Navy, #1C1F26);
+        padding: 4rem 0px 0px;
+    }
+    .home-banner-home video{
+        height: 372px;
+        width: 100%;
+    }
+    .home-banner-content {
+        width: 756px;
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 40px 24px;
+    }
+    .home-banner-content h1 {
+        color: var(--Grayscale-White, #FFF);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+    .home-banner-content p {
+        color: var(--Grayscale-300, #E7E7E7);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+    }
+    .card .col-details {
+        padding: 16px 16px;
+    }
+    .col-details p {
+        color: var(--Grayscale-700, #656565);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 16px;
+    }
+    .col-title h2 {
+        color: var(--Navy, #1C1F26);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 111.807%;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+    .col-title p {
+        color: var(--Grayscale-700, #656565);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 24px;
+    }
+    .explore-our-solutions {
+        padding: 40px 10px 0px;
+    }
+    .right-content-box {
+        text-align: left;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .button-img {
+        border: 1px solid #DEE5ED;
+        background: var(--Grayscale-200, #F8F8F8);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        gap: 16px;
+        padding: 8px 40px;
+        width: 327px;
+        max-width: 100%;
+        border-radius: 0px;
+        margin-bottom: 24px;
+        height: 96px;
+    }
+    .right-content-box h3 {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 133.807%;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+        padding: 0px 27px
+    }
+    .right-content-box p {
+        color: var(--Grayscale-700, #656565);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        margin-bottom: 16px;
+    }
+    .right-content-box {
+        padding: 0px 18px;
+        margin-top: 24px;
+    }
+    .button-img p {
+        color: var(--Navy, #1C1F26);
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+    }
+    .setpecontent-section{
+        padding: 40px 0px;
+    }
+    .stepsthree-cool h2 {
+        color: var(--Navy, #1C1F26);
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 131.807%;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+    }
+    .stepsthree-cool {
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+    .last-cl-bg {
+        background: url(../images/Ready-to-let-us-help-mo.png) no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height: 887px;
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .last-content-left {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        align-items: center;
+        gap: 16px;
+        margin-right: 0px;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .col-bg-stp::after {
+        content: "";
+        background: url(../images/Divbe.png) no-repeat;
+        background-size: cover;
+        width: 1406px;
+        position: absolute;
+        height: 650px;
+        z-index: 0;
+        right: 0px;
+        bottom: 0px;
+        display: none;
+    }
+    .col-bg-stp::before {
+        content: "";
+        background: url(../images/Divafter.png) no-repeat;
+        background-size: cover;
+        width: 1406px;
+        position: absolute;
+        height: 650px;
+        z-index: 0;
+        left: 0px;
+        top: 0px;
+        display: none;
+    }
+    .last-section-home{
+        padding: 0px 0px;
+    }
+    .last-content-left h2 {
+        padding: 0px 17px;
+        color: var(--Grayscale-White, #FFF);
+        font-family: "DM Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 131.807%;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    .last-content-left p {
+        color: var(--Grayscale-300, #E7E7E7);
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167%;
+        text-align: center;
+    }    
     
     
     

@@ -1,4 +1,4 @@
-console.log("welcome to javascript")
+console.log(window.location.href)
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 100) {
         $('header').addClass('color-header');
@@ -24,6 +24,28 @@ toogleBtn.addEventListener('click',()=>{
         countimg = 0;
     }
 })
+// change addtogglestyle tab panel home page
+function showImage(index) {
+    const images = document.querySelectorAll('.imagech');
+    images.forEach((img, i) => {
+    img.style.display = i === index ? 'block' : 'none';
+    });
+}
+
+let num = 0
+let tooglecart = document.querySelector('.cart-toggle');
+
+tooglecart.addEventListener('click',()=>{
+    if(num == 0){
+        document.getElementById('card-show').style.display="block";
+        num =1;
+    }
+    else{
+        document.getElementById('card-show').style.display=" none ";
+        num =0;
+    }
+})
+
 
 
 AOS.init({
