@@ -244,7 +244,7 @@
                                             <td>
                                                 <p class="history_bodytext">£800</p>
                                             </td>
-                                            <td><button class="order_detailbtn">View Details</button>
+                                            <td><button class="order_detailbtn" data-bs-toggle="modal" data-bs-target="#myModal">View Details</button>
                                             </td>
                                         </tr>
                                         <tr class="align-middle">
@@ -289,6 +289,115 @@
         </div>
     </section>
     <!-- Dashboard Section 2 End -->
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal_outline">
+            <div class="modal-content modal_content">
+                <!-- Modal body -->
+                <div class="modal-body modal_body">
+                    <div class="modal_titlebar">
+                        <h5 class="modal_id">Order: #1234567</h5>
+                        <img src="./assest/images/modal_close.svg" class="modal_close">
+                    </div>
+                    <div class="modal_contentbar">
+                        <div class="modal_contenttop">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresscheck.svg">
+                                <p class="modal_progresstitle">Order Placed</p>
+                            </div>
+                            <img src="./assest/images/modal_progressarrow.svg">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresscheck.svg">
+                                <p class="modal_progresstitle">On Review</p>
+                            </div>
+                            <img src="./assest/images/modal_progressarrow.svg">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresspending.svg">
+                                <p class="modal_pendingtitle">Delivery Pending</p>
+                            </div>
+                            <img src="./assest/images/modal_progressarrow.svg">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresspending.svg">
+                                <p class="modal_pendingtitle">Order Delivered</p>
+                            </div>
+                        </div>
+                        <div class="modal_contentmid">
+                            <div class="modal_tablebar1">
+                                <div class="modal_table1titlebar">
+                                    <p class="modal_table1title">Order Overview</p>
+                                </div>
+                                <div class="table-responsive modal_tablemain w-100">
+                                    <table class="table table-borderless mb-0 modal_table">
+                                        <thead class="modal_table_header">
+                                            <tr class="align-middle">
+                                                <th scope="col">
+                                                    <p class="modal_tabletitle">#</p>
+                                                </th>
+                                                <th scope="col">
+                                                    <p class="modal_tabletitle">Product</p>
+                                                </th>
+                                                <th scope="col">
+                                                    <p class="modal_tabletitle">Qty</p>
+                                                </th>
+                                                <th scope="col">
+                                                    <p class="modal_tabletitle">Price</p>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="modal_table_body">
+                                            <tr class="align-middle">
+                                                <td>
+                                                    <p class="modal_bodytextblack"><b>1.</b></p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextgrey">1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextgrey">$100.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="align-middle">
+                                                <td>
+                                                    <p class="modal_bodytextblack"><b>2.</b></p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextgrey">1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextgrey">$100.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="align-middle">
+                                                <td>
+                                                    <p class="modal_bodytextblack"><b>3.</b></p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextgrey">1</p>
+                                                </td>
+                                                <td>
+                                                    <p class="modal_bodytextgrey">$100.00</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Start -->
     <footer class="bd-footer">

@@ -282,6 +282,150 @@
     justify-content: end;
     padding: 16px 4px;
 }
+/* Modal */
+.modal_outline {
+    display: flex;
+    justify-content: center;
+}
+.modal_content {
+    width: auto;
+    border-radius: 20px;
+    background: var(--Grayscale-White, #FFF);
+}
+
+.modal_body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+    width: 1050px;
+    height: 760px;
+}
+.modal_titlebar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--Grayscale-300, #E7E7E7);
+}
+.modal_id{
+    color: var(--Navy, #1C1F26);
+    font-family: "DM Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.807%;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.modal_contentbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.modal_contenttop{
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Outline, #DEE5ED);
+    background: var(--Navy, #1C1F26);
+}
+.modal_statusbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+.modal_progresstitle{
+    color: var(--Grayscale-White, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    margin: 0px;
+}
+.modal_pendingtitle{
+    color: var(--Grayscale-White, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    margin: 0px;
+    opacity: 0.3;
+}
+.modal_tablebar1{
+    display: flex;
+    width: 635px;
+    min-width: 512px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Outline, #DEE5ED);
+    background: var(--Grayscale-White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.modal_table1titlebar{
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    background: var(--Navy, #1C1F26);
+    border-radius: 10px 10px 0px 0px;
+}
+.modal_table1title{
+    color: var(--Grayscale-White, #FFF);
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.modal_tabletitle{
+    color: var(--Navy, #1C1F26);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167%;
+    margin: 0px;
+}
+.modal_table thead tr th:nth-child(2) {
+    text-align: start;
+}
+.modal_table tbody tr td:nth-child(2) {
+    text-align: start;
+}
+.modal_bodytextblack{
+    color: var(--Navy, #1C1F26);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    margin: 0px;
+}
+.modal_bodytextgrey{
+    color: var(--Grayscale-700, #656565);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+    margin: 0px;
+}
 /* Dashboard End */
 
 
