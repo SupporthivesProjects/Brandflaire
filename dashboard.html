@@ -260,7 +260,7 @@
                                             <td>
                                                 <p class="history_bodytext">£800</p>
                                             </td>
-                                            <td><button class="order_detailbtn">View Details</button>
+                                            <td><button class="order_detailbtn" data-bs-toggle="modal" data-bs-target="#myModal">View Details</button>
                                             </td>
                                         </tr>
                                         <tr class="align-middle">
@@ -276,7 +276,7 @@
                                             <td>
                                                 <p class="history_bodytext">£800</p>
                                             </td>
-                                            <td><button class="order_detailbtn">View Details</button>
+                                            <td><button class="order_detailbtn" data-bs-toggle="modal" data-bs-target="#myModal">View Details</button>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -322,74 +322,160 @@
                                 <p class="modal_pendingtitle">Order Delivered</p>
                             </div>
                         </div>
+                        <p class="order_swipetext desktop_none mx-auto">Swipe left and right to view the table.</p>
                         <div class="modal_contentmid">
-                            <div class="modal_tablebar1">
-                                <div class="modal_table1titlebar">
-                                    <p class="modal_table1title">Order Overview</p>
+                            <div class="modal_table1main">
+                                <div class="modal_tablebar1">
+                                    <div class="modal_table1titlebar">
+                                        <p class="modal_table1title">Order Overview</p>
+                                    </div>
+                                    <div class="table-responsive modal_tablemain w-100">
+                                        <table class="table table-borderless mb-0 modal_table">
+                                            <thead class="modal_table_header">
+                                                <tr class="align-middle">
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">#</p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">Product</p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">Qty</p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">Price</p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="modal_table_body">
+                                                <tr class="align-middle">
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>1.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">1</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">$100.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="align-middle">
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>2.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">1</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">$100.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="align-middle">
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>3.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">1</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">$100.00</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                                <div class="table-responsive modal_tablemain w-100">
-                                    <table class="table table-borderless mb-0 modal_table">
-                                        <thead class="modal_table_header">
-                                            <tr class="align-middle">
-                                                <th scope="col">
-                                                    <p class="modal_tabletitle">#</p>
-                                                </th>
-                                                <th scope="col">
-                                                    <p class="modal_tabletitle">Product</p>
-                                                </th>
-                                                <th scope="col">
-                                                    <p class="modal_tabletitle">Qty</p>
-                                                </th>
-                                                <th scope="col">
-                                                    <p class="modal_tabletitle">Price</p>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="modal_table_body">
-                                            <tr class="align-middle">
-                                                <td>
-                                                    <p class="modal_bodytextblack"><b>1.</b></p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextgrey">1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextgrey">$100.00</p>
-                                                </td>
-                                            </tr>
-                                            <tr class="align-middle">
-                                                <td>
-                                                    <p class="modal_bodytextblack"><b>2.</b></p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextgrey">1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextgrey">$100.00</p>
-                                                </td>
-                                            </tr>
-                                            <tr class="align-middle">
-                                                <td>
-                                                    <p class="modal_bodytextblack"><b>3.</b></p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextgrey">1</p>
-                                                </td>
-                                                <td>
-                                                    <p class="modal_bodytextgrey">$100.00</p>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            </div>
+                            <div class="modal_table2main">
+                                <div class="modal_tablebar2">
+                                    <div class="modal_table2titlebar">
+                                        <p class="modal_table2title">Order Amount</p>
+                                    </div>
+                                    <div class="modal_table2contentbar">
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Subtotal</p>
+                                            <p class="modal_table2contentsubtitle">$10.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Tax</p>
+                                            <p class="modal_table2contentsubtitle">0.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Coupon Discount</p>
+                                            <p class="modal_table2contentsubtitle">0.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Total</p>
+                                            <p class="modal_table2contentsubtitle">$10.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal_contentmid">
+                            <div class="modal_table2main w-100">
+                                <div class="modal_tablebar2 w-100">
+                                    <div class="modal_table2titlebar">
+                                        <p class="modal_table2title">Order Details</p>
+                                    </div>
+                                    <div class="modal_table2contentbar">
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Order #:</p>
+                                            <p class="modal_table2contentsubtitle">0000000</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Order Date:</p>
+                                            <p class="modal_table2contentsubtitle">01-01-2025 00:00 AM</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Status:</p>
+                                            <p class="modal_table2contentsubtitle">Paid</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Total:</p>
+                                            <p class="modal_table2contentsubtitle">$400.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Payment Method:</p>
+                                            <p class="modal_table2contentsubtitle">Debit/Credit Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal_table2main w-100">
+                                <div class="modal_tablebar2 w-100">
+                                    <div class="modal_table2titlebar">
+                                        <p class="modal_table2title">Order Amount</p>
+                                    </div>
+                                    <div class="modal_table2contentbar">
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Name:</p>
+                                            <p class="modal_table2contentsubtitle">John Smith</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Email:</p>
+                                            <p class="modal_table2contentsubtitle">Johnsmith@gmail.com</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Phone:</p>
+                                            <p class="modal_table2contentsubtitle">+00 123 456 789</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Billing Address:</p>
+                                            <p class="modal_table2contentsubtitle" style="max-width: 120px;">123 Street,
+                                                Address line 1
+                                                USA, 123 ABC</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
