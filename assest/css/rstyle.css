@@ -1488,7 +1488,7 @@
     .seo_s2redimg{
         height: 46px;
         width: 100%;
-        bottom: -440px;
+        bottom: -414px;
         left: 0px;
     }
     .service_s3{
@@ -1501,19 +1501,19 @@
     .service_s3title{
         font-size: 24px;
     }
-    .service_s3cardbar {
+      .service_s3cardbar {
         display: flex;
         flex-wrap: wrap;
-        column-gap: 10px;
-        row-gap: 20px;  
+        column-gap: 10px; /* gap between columns (cards in a row) */
+        row-gap: 20px;    /* gap between rows (top row & bottom row) */
         justify-content: center;
       }
     
       .service_s3card {
-        flex: 1 1 calc(50% - 20px); /* 2 cards per row with some gap */
+        width: calc(50% - 5px); 
         box-sizing: border-box;
         border-radius: 23px;
-        padding: 28px 25px 24px 25px;
+        padding: 17px;
       }
       .service_s3cardinner{
         height: 124.3px;
