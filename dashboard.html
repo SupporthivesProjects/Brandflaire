@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandFlaire</title>
+    <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assest/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assest/css/owl.theme.default.css">
+    <link rel="stylesheet" href="./assest/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assest/css/aos.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="./assest/css/rstyle.css">
+    <link rel="stylesheet" href="./assest/css/responsive.css">
+    <style>
+        header {
+            background: #1C1F26;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assest/images/brand.svg" alt="" class="branlogo img-fluid">
+                </a>
+                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./assest/images/Menu-Button.svg" class="img-fluid" id="changetoggle">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Solutions
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-servies">
+                                <li><a class="dropdown-item select-item" href="#">SEO</a></li>
+                                <li><a class="dropdown-item" href="#">PPC</a></li>
+                                <li><a class="dropdown-item" href="#">ORM</a></li>
+                                <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                                <li><a class="dropdown-item" href="#">Social Media</a></li>
+                                <li><a class="dropdown-item" href="#">Email Marketing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ’s</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                GBP
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-cuurency">
+                                <li><a class="dropdown-item select-item" href="#">£ GBP</a></li>
+                                <li><a class="dropdown-item" href="#">£ GBP</a></li>
+                                <li><a class="dropdown-item" href="#">£ GBP</a></li>
+                                <li><a class="dropdown-item" href="#">£ GBP</a></li>
+                                <li><a class="dropdown-item" href="#">£ GBP</a></li>
+                                <li><a class="dropdown-item" href="#">£ GBP</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Cart <span>(0)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-nav-mo">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-red" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Dashboard Section 1 Start -->
+    <section class="dashboard_sec1">
+        <div class="container dashboard_con1">
+            <div class="dashboard_tabbar">
+                <div class="nav-tabs-container">
+                    <ul class="nav nav-pills tab_btnbar" id="pills-tab" role="tablist">
+                        <li class="nav-item col" role="presentation">
+                            <button class="tab_btn active w-100" id="pills-account-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-account" type="button" role="tab" aria-controls="pills-account"
+                                aria-selected="true">My&nbsp;Account</button>
+                        </li>
+                        <li class="tab_btnline"></li>
+                        <li class="nav-item col" role="presentation">
+                            <button class="tab_btn w-100" id="pills-history-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-history" type="button" role="tab" aria-controls="pills-history"
+                                aria-selected="false">Order&nbsp;History</button>
+                        </li>
+                        <li class="tab_btnline"></li>
+                        <li class="nav-item col" role="presentation">
+                            <button class="tab_btn w-100" id="" type="button">Logout</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section 1 End -->
+
+    <!-- Dashboard Section 2 Start -->
+    <section class="dashboard_sec2">
+        <div class="container dashboard_con2">
+            <div class="tab_contentbar tab-content">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-account" role="tabpanel"
+                        aria-labelledby="pills-account-tab">
+                        <div class="account_tabcontent account_main">
+                            <div class="account_titlebar">
+                                <h2 class="account_title">My Account</h2>
+                                <div class="account_subtitlebar">
+                                    <p class="logout_text">Hello <b>John</b> (Not John? <a
+                                            class="dashboard_logoutbtn">Logout</a>)</p>
+                                    <p class="account_subtitle">From your account dashboard you can vier your recent
+                                        orders, manage your billing addressed and edit your password and account
+                                        details.</p>
+                                </div>
+                            </div>
+                            <div class="dashboard_line"></div>
+                            <div class="dashboard_mid">
+                                <h5 class="acc_infotitle">Personal Details</h5>
+                                <div class="dashboard_textboxbar">
+                                    <div class="dashboard_textboxline">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="First Name">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Last Name">
+                                    </div>
+                                    <div class="dashboard_textboxline">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Email Address">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Phone Number">
+                                    </div>
+                                    <div class="dashboard_textboxline">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Password">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="New Password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard_line"></div>
+                            <div class="dashboard_mid">
+                                <h5 class="acc_infotitle">Billing address</h5>
+                                <div class="dashboard_textboxbar">
+                                    <div class="dashboard_textboxline">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Address line 1">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Address line 2">
+                                    </div>
+                                    <div class="dashboard_textboxline">
+                                        <div class="inp_div w-100">
+                                            <input type="text" class="form-control dashboard_textbox w-100" id=""
+                                                placeholder="City">
+                                        </div>
+                                        <div class="drop_div w-100">
+                                            <div class="dropdown w-100">
+                                                <button class="btn account_dropdown w-100" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    France<img class="drop_arrrow" src="./assest/images/drop_arrow.svg">
+                                                </button>
+                                                <ul class="dropdown-menu w-100">
+                                                    <li><a class="dropdown-item" href="#">India</a></li>
+                                                    <li><a class="dropdown-item" href="#">America</a></li>
+                                                    <li><a class="dropdown-item" href="#">Japan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard_textboxline">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="County">
+                                        <input type="text" class="form-control dashboard_textbox" id=""
+                                            placeholder="Zip / Postal code">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn dashboard_savebtn"> Save Changes</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade history_main" id="pills-history" role="tabpanel"
+                        aria-labelledby="pills-history-tab">
+                        <div class="order_tabcontent order_main">
+                            <div class="order_titlebar">
+                                <h2 class="account_title">My Orders</h2>
+                                <p class="account_subtitle order_subtitle">From your account dashboard you can vier your recent
+                                    orders, manage your billing addressed and edit your password and account
+                                    details.</p>
+                                    <p class="order_swipetext desktop_none">Swipe left and right to view the table.</p>
+                            </div>
+                            <div class="table-responsive main_tablediv">
+                                <table class="table table-borderless mb-0 history_table">
+                                    <thead class="history_table_header">
+                                        <tr class="align-middle">
+                                            <th scope="col">
+                                                <p class="history_tabletitle">Order #</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="history_tabletitle">Date</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="history_tabletitle">QTY</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="history_tabletitle">Total</p>
+                                            </th>
+                                            <th scope="col">
+                                                <p class="history_tabletitle"></p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="history_table_body">
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="hisroty_orderid">#123</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">June 14, 2021</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">X1</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">£800</p>
+                                            </td>
+                                            <td><button class="order_detailbtn" data-bs-toggle="modal" data-bs-target="#myModal">View Details</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="hisroty_orderid">#123</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">June 14, 2021</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">X1</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">£800</p>
+                                            </td>
+                                            <td><button class="order_detailbtn" data-bs-toggle="modal" data-bs-target="#myModal">View Details</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-middle">
+                                            <td>
+                                                <p class="hisroty_orderid">#123</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">June 14, 2021</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">X1</p>
+                                            </td>
+                                            <td>
+                                                <p class="history_bodytext">£800</p>
+                                            </td>
+                                            <td><button class="order_detailbtn" data-bs-toggle="modal" data-bs-target="#myModal">View Details</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section 2 End -->
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal_outline">
+            <div class="modal-content modal_content">
+                <!-- Modal body -->
+                <div class="modal-body modal_body">
+                    <div class="modal_titlebar">
+                        <h5 class="modal_id">Order: #1234567</h5>
+                        <img src="./assest/images/modal_close.svg" class="modal_close">
+                    </div>
+                    <div class="modal_contentbar">
+                        <div class="modal_contenttop">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresscheck.svg">
+                                <p class="modal_progresstitle">Order Placed</p>
+                            </div>
+                            <img src="./assest/images/modal_progressarrow.svg">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresscheck.svg">
+                                <p class="modal_progresstitle">On Review</p>
+                            </div>
+                            <img src="./assest/images/modal_progressarrow.svg">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresspending.svg">
+                                <p class="modal_pendingtitle">Delivery Pending</p>
+                            </div>
+                            <img src="./assest/images/modal_progressarrow.svg">
+                            <div class="modal_statusbar">
+                                <img src="./assest/images/modal_progresspending.svg">
+                                <p class="modal_pendingtitle">Order Delivered</p>
+                            </div>
+                        </div>
+                        <p class="order_swipetext desktop_none mx-auto">Swipe left and right to view the table.</p>
+                        <div class="modal_contentmid">
+                            <div class="modal_table1main">
+                                <div class="modal_tablebar1">
+                                    <div class="modal_table1titlebar">
+                                        <p class="modal_table1title">Order Overview</p>
+                                    </div>
+                                    <div class="table-responsive modal_tablemain w-100">
+                                        <table class="table table-borderless mb-0 modal_table">
+                                            <thead class="modal_table_header">
+                                                <tr class="align-middle">
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">#</p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">Product</p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">Qty</p>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <p class="modal_tabletitle">Price</p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="modal_table_body">
+                                                <tr class="align-middle">
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>1.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">1</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">$100.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="align-middle">
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>2.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">1</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">$100.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="align-middle">
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>3.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextblack"><b>SEO</b> - Platinum Package</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">1</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="modal_bodytextgrey">$100.00</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal_table2main">
+                                <div class="modal_tablebar2">
+                                    <div class="modal_table2titlebar">
+                                        <p class="modal_table2title">Order Amount</p>
+                                    </div>
+                                    <div class="modal_table2contentbar">
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Subtotal</p>
+                                            <p class="modal_table2contentsubtitle">$10.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Tax</p>
+                                            <p class="modal_table2contentsubtitle">0.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Coupon Discount</p>
+                                            <p class="modal_table2contentsubtitle">0.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Total</p>
+                                            <p class="modal_table2contentsubtitle">$10.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal_contentmid">
+                            <div class="modal_table2main w-100">
+                                <div class="modal_tablebar2 w-100">
+                                    <div class="modal_table2titlebar">
+                                        <p class="modal_table2title">Order Details</p>
+                                    </div>
+                                    <div class="modal_table2contentbar">
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Order #:</p>
+                                            <p class="modal_table2contentsubtitle">0000000</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Order Date:</p>
+                                            <p class="modal_table2contentsubtitle">01-01-2025 00:00 AM</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Status:</p>
+                                            <p class="modal_table2contentsubtitle">Paid</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Total:</p>
+                                            <p class="modal_table2contentsubtitle">$400.00</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Payment Method:</p>
+                                            <p class="modal_table2contentsubtitle">Debit/Credit Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal_table2main w-100">
+                                <div class="modal_tablebar2 w-100">
+                                    <div class="modal_table2titlebar">
+                                        <p class="modal_table2title">Order Amount</p>
+                                    </div>
+                                    <div class="modal_table2contentbar">
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Name:</p>
+                                            <p class="modal_table2contentsubtitle">John Smith</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Email:</p>
+                                            <p class="modal_table2contentsubtitle">Johnsmith@gmail.com</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Phone:</p>
+                                            <p class="modal_table2contentsubtitle">+00 123 456 789</p>
+                                        </div>
+                                        <div class="modal_table2contentline">
+                                            <p class="modal_table2contenttitle">Billing Address:</p>
+                                            <p class="modal_table2contentsubtitle" style="max-width: 120px;">123 Street,
+                                                Address line 1
+                                                USA, 123 ABC</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="bd-footer">
+        <img src="./assest/images/testi-bg-1-1 1.png" class="img-fluid d-block d-lg-none d-md-none bg-image">
+        <div class="container text-body-secondary">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 mb-3 col-mo">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <img src="./assest/images/footer-logo.svg" class="img-fluid">
+                    </a>
+                    <div>
+                        <img src="./assest/images/Mastercard.svg" class="img-fluid masrterimg">
+                    </div>
+                    <div class="list-unstyled small">
+                        <h5>Follow Us:</h5>
+                        <img src="./assest/images/white.svg" class="img-fluid">
+                        <img src="./assest/images/Instagram.svg" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 col-md-12 col-12   order-lg-1 order-2">
+                    <h5>Our Details</h5>
+                    <ul class="list-unstyled-p">
+                        <p>info@Brandflaire.com</p>
+                        <p>132 Dartmouth Street Boston,</p>
+                        <p>Massachusetts 02156</p>
+                        <p>United States</p>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-3 col-md-12 col-12">
+                    <h5>Our Solutions</h5>
+                    <ul class="list-unstyled-main">
+                        <li class=""><a href="">UX/UI</a></li>
+                        <li class=""><a href="">Social Media </a></li>
+                        <li class=""><a href="">Email Marketing</a></li>
+                        <li class=""><a href="">SEO</a></li>
+                        <li class=""><a href="">PPC</a></li>
+                        <li class=""><a href="">ORM</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="col">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-0 order-1">
+                        <div class="col-red-div">
+                            <p>© 2025 Brandflaire.com. All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="footerullid">
+                            <ul>
+                                <li>
+                                    <a href="#">Terms and Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assest/js/jquery-3.7.1.min.js"></script>
+    <script src="./assest/js/owl.carousel.js"></script>
+    <script src="./assest/js/popper.min.js"></script>
+    <script src="./assest/js/bootstrap.bundle.min.js"></script>
+    <script src="./assest/js/swiper-bundle.min.js"></script>
+    <script src="./assest/js/aos.js"></script>
+    <script src="./assest/js/main.js"></script>
+</body>
+
+</html>
