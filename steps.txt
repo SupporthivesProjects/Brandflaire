@@ -1,3 +1,7 @@
+vijay -> header, footer, Home, cart modal ,term, privacy, error all modal
+rahul -> seo,social Media, arm, ppc, Web Design, email marketing, all dashboard all modal
+dhiraj-> about Us, Contact Us, checkout, payment successfull/unsuccessful, allmodal
+saakshi-> faqs, email template, login, sign up , resetpage, all modal
 1. Vijay 
    create assets folder --> css, js, images
    creat index.html
